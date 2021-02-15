@@ -42,7 +42,6 @@ export default function Squares() {
     // (unless it already is, in which case we should reset
     // the currently active square id back to initial state).
     setActiveSquare(id);
-    console.log(activeSquare)
   };
 
   return (
